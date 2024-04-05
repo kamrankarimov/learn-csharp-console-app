@@ -4,6 +4,9 @@ internal class Program
 {
 	private static void Main(string[] args)
 	{
-		MagicNumber.start();
+		//MagicNumber.start();
+		//TeamMembers.getNewMembersList();
+		//TeamMembers.getOldMembersList();
+		SmsSystem.generateRandomOTP(1000, 10000);
 	}
 }
