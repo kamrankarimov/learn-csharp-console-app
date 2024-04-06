@@ -7,6 +7,8 @@ internal class Program
 		//MagicNumber.start();
 		//TeamMembers.getNewMembersList();
 		//TeamMembers.getOldMembersList();
-		SmsSystem.generateRandomOTP(1000, 10000);
+		//SmsSystem.generateRandomOTP(1000, 10000);
+
+		Methods.init();
 	}
 }
